@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" /></script>
+
+    <title> Users </title>
+</head>
+<body class="bg-dark">
+
+    <!-- Header -->
+    <header id="main-header">
+        <nav class="w-100 navbar bg-black fixed-top">
+            <div class="container d-flex justify-content-between align-items-center gap-5">
+                <div class="w-50 py-2 menus d-flex align-items-center gap-5">
+                    <i class="fs-1 fa-solid fa-bars" style="color: white;" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation"></i>
+                    <input class="w-100 fw-bolder bg-dark-subtle form-control text-black" type="search"
+                        placeholder="Search">
+                </div>
+                <div><h3 class="fw-medium text-white">Users Page</h3></div>
+                <div class="d-flex text-primary align-items-center gap-4 fs-3">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-solid fa-bell"></i>
+                    <div class="dropdown-center">
+                        <!-- dropdown-toggle button class -->
+                        <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fs-3 text-primary  fa-solid fa-user-alt"></i>
+                        </button>
+                        <ul class="dropdown-menu bg-dark flex-column">
+                            <a class="dropdown-item d-flex gap-3 text-primary" href="#profil">
+                                <i class="fs-4 fa-solid fa-user"></i>
+                                <h5 class="fw-medium">Profil</h5>
+                            </a>
+                            <a class="dropdown-item d-flex gap-3 text-primary" href="#setting">
+                                <i class="fs-4 fa-solid fa-gear"></i>
+                                <h5 class="fw-medium">Setting</h5>
+                            </a>
+                            <a class="dropdown-item d-flex gap-3 text-primary" href="#logout">
+                                <i class="fs-4 fa-solid fa-right-from-bracket"></i>
+                                <h5 class="fw-medium">Logout</h5>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offcanvas bg-black offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header d-flex justify-content-between align-items-center text-white">
+                        <h2 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h2>
+                        <button class="btn" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                                class="fs-4 p-1 text-white fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="mx-3 d-flex flex-column gap-3 text-white offcanvas-body">
+                        <a href="/vazifa_8.html" class="d-flex gap-3 justify-content-start text-decoration-none">
+                            <i class="text-primary border-1 fs-3 fa-solid fa-home"></i>
+                            <h4 class="text-warning border-1 border-primary">Dashboard</h4>
+                        </a>
+                        <a href="/Pages/user.html" class="d-flex gap-3 justify-content-start text-decoration-none">
+                            <i class="text-primary border-1 fs-3 fa-solid fa-users"></i>
+                            <h4 class="text-warning border-1 border-primary">Users</h4>
+                        </a>
+                        <a href="/Pages/praducts.html" class="d-flex gap-3 justify-content-start text-decoration-none">
+                            <i class="text-primary border-1 fs-3 fa-brands fa-dropbox"></i>
+                            <h4 class="text-warning border-1 border-primary">Products</h4>
+                        </a>
+                        <a href="/Pages/orders.html" class="d-flex gap-3 justify-content-start text-decoration-none">
+                            <i class="text-primary border-1 fs-3 fa-solid fa-cart-shopping"></i>
+                            <h4 class="text-warning border-1 border-primary">Orders</h4>
+                        </a>
+                        <a href="/Pages/user.html" class="d-flex gap-3 justify-content-start text-decoration-none">
+                            <i class="text-primary border-1 fs-3 fa-solid fa-home"></i>
+                            <h4 class="text-warning border-1 border-primary">Dashboard</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+    
+    <script src="/JS/users.js"></script>
+</body>
+</html>

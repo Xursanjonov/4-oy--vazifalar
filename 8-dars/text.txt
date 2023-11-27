@@ -1,0 +1,24 @@
+Users
+    First Name
+    Last Name
+    Image
+    Age
+    Email
+    Password
+
+Products
+    Name
+    Price
+    Description
+    Image
+    Company
+    Category
+
+Orders
+    Date
+    ClintName
+    Total Price
+    Status
+        Created
+        Packing
+        Delivered
